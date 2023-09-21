@@ -1,0 +1,52 @@
+/* Estilos para o header */
+header {
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+/* Estilos para o main */
+main {
+  background-color: #EF7D19;
+  padding: 16px;
+  color: white;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilos para as imagens dentro do main */
+main img {
+  margin: 16px;
+  max-width: 100%;
+}
+
+/* Estilos para o footer */
+footer {
+  background: #58378C;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+/* Estilos para os links do footer */
+footer a {
+  text-decoration: none;
+  color: white;
+}
